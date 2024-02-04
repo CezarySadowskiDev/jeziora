@@ -1,0 +1,367 @@
+html
+{
+    font-family: 'Lato', sans-serif;
+    background-color: #191d21;
+}
+
+#index
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #191d21;
+}
+
+@-webkit-keyframes test {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+header
+{
+    display: block;
+    width: 950px;
+	font-size: 40px;
+	font-weight: 400;
+	color: #39a5f1;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    word-spacing: 5px;
+    
+}
+
+header, aHeader, #jezioraMain, hr, .zdjecia, .galPhoto, .galImg, p, footer, .biblioLista, h3, h4
+{
+    -webkit-animation-name: test;
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 1.9s;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-timing-function: ease-out;
+}
+
+#aHeader
+{
+    display: block;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#index:before
+{
+    content: "";
+    background-image: url(img/lake_index_bg.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-animation-name: test;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-timing-function: ease-out;  
+}
+
+#indexPage
+{
+    list-style-type: none;
+}
+
+nav
+{
+    background-color: #191d21;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    content: "";
+    -webkit-animation-name: test;
+    -webkit-animation-delay: 5.5s;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-timing-function: ease-out;
+}
+
+#firstHalf
+{
+    width: 50%;
+    float: left;
+    height: inherit;
+    line-height: 70px;
+    transition: 1s;
+}
+
+#secondHalf
+{
+    width: 50%;
+    float: left;
+    height: inherit;
+    line-height: 70px;
+    transition: 1s;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#firstHalf:hover, #secondHalf:hover
+{
+    background-color: #0F1113;
+    color: #39a5f1;
+    transition: 1s;
+}
+
+#mainIndex
+{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+
+#temat
+{
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+	font-weight: 400;
+	color: #2022C4;
+    text-transform: uppercase;
+    margin-top: 220px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    content: "";
+    -webkit-animation-name: test;
+    -webkit-animation-delay: 2.5s;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-timing-function: ease-out;
+}
+
+#info
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    color: white;;
+    font-size: 29px;
+    text-shadow: 2px 2px black;
+    word-spacing: 1px;
+    content: "";
+    -webkit-animation-name: test;
+    -webkit-animation-delay: 3.5s;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-timing-function: ease-out;
+}
+
+#wykonanie
+{
+    text-align: right;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: 90px;
+    padding: 5px;
+    content: "";
+    -webkit-animation-name: test;
+    -webkit-animation-delay: 4.5s;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-timing-function: ease-out;
+}
+
+#jezioraMain
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center
+}
+
+#jezioraIn
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer
+{
+    margin-top: 40px;
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: right;
+}
+hr
+{
+    width: 80%;
+    margin-top: 20px;
+    border-color: grey;
+}
+
+.photoRow1, .photoRow2, .photoRow3
+{
+    width: 450px;
+    height: 350px;
+    display: inline-block;
+    margin: 40px;
+}
+
+.min
+{
+    width: 450px;
+    height: 350px;
+    border: none;
+}
+
+.fullPhoto
+{
+    position: relative;
+}
+
+.link
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    background-color: #191d21;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 20px;
+}
+
+.fullPhoto:hover .link
+{
+    opacity: 0.9;
+}
+
+#tytulJeziora, #galeria, h3
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 50px;
+}
+
+.zdjecia
+{
+    text-align: center;
+}
+
+img
+{
+    border: 1px solid white;
+}
+
+.opis
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#divGal
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.galPhoto
+{
+    background-color: #2f3337;
+    display: inline-block;
+    width: 170px;
+    height: 120px;
+    margin: 10px;
+    line-height: 120px;
+    transition: 1s;
+}
+
+.galImg
+{
+    width: 130px;
+    height: 88px;
+    vertical-align: middle;
+    transition: 1s;
+}
+
+.galPhoto:hover
+{
+    background-color: #14171a;
+}
+
+.galPhoto:hover .galImg
+{
+    transform: scale(1.08);
+}
+
+.biblioLista
+{
+    list-style-type: none;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.biblioLista > li::before
+{
+    content: "•";
+    color: #39a5f1;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.scrollUp
+{
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url(img/strzalka.png) no-repeat 0px 0px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+
+h4
+{
+    color: #39a5f1;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 40px
+}

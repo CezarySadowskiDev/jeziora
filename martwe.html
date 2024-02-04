@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+    
+        <title>Morze Martwe</title>
+        <meta charset="utf-8">
+        
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="lightbox.min.css" rel="stylesheet" type="text/css">
+        
+        <script src="lightbox-plus-jquery.min.js"></script>
+        
+        <script>
+            $(function(){
+                $('.scrollUp').click(function(e){
+                e.preventDefault();
+                $('html, body').animate({scrollTop:0}, 800);
+            });
+        });
+            
+            //pokaż podczas przewijania
+            $(window).scroll(function()
+            {
+                if($(this).scrollTop()>350) $('.scrollUp').fadeIn();
+                else $('.scrollUp').fadeOut()
+            }
+            );
+        </script>
+        
+    </head>
+    
+    <body>
+    
+        <a id="aHeader" href="jeziora.html">
+            
+            <header>Najciekawsze jeziora świata</header>
+            
+        </a>
+
+        <a href="#" class="scrollUp"></a>
+
+        <hr>
+
+        
+        <main id="jezioraIn">
+            
+            
+            <p id="tytulJeziora">Morze Martwe</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/dead_sea/dead_sea_01.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Morze Martwe położone jest na granicy Izraela i Jordanii, w północnej części tektonicznego Rowu Jordanu. Wykazuje bardzo duże zasolenie– średnio 26%. Na powierzchni zasolenie wynosi ok. 22%, a na głębokości 50m – 36%. Lustro wody znajduje się w najniższym punkcie Ziemi, 418m p.p.m. Długość jeziora wynosi 76km, a szerokość dochodzi do 16km. Maksymalna głębokość Morza Martwego wynosi 377 metrów. W ciągu wieków przylegały do niego różne nazwy: Morze Cuchnące, Morze Diabelskie, Morze Sodomy, Morze Lota, czy też Jezioro Asfaltowe.
+            </p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/dead_sea/dead_sea_02.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Poziom wody Morza Martwego stale się obniża. Przez 40 lat jego powierzchnia zmalała o około 30%. W ostatnich latach proces ten przybrał na sile, obecny roczny spadek wynosi około 1 metra. W upalny dzień, z Morza Martwego potrafi odparować nawet 7 milionów ton wody. Do jeziora wpada rzeka Jordan, jednak mimo tego, ilość dopływającej wody nie zmienia znacząco bilansu i nadal wody więcej paruje niż przybywa.</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/dead_sea/dead_sea_03.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Winne takiemu stanowi rzeczy mogą być syryjskie instalacje hydrologiczne na dopływie Jordanu, rzece Yarmouk. Syryjczycy zbudowali tam 40 zapór, które pozwoliły na znaczne rozbudowanie zasobów wodnych tego kraju. W ostatnich latach pobór wody z Jordanu zwiększył też Izrael. Liczba ludności na Bliskim Wschodzie stale rośnie, a więc wzrasta również zapotrzebowanie na wodę. Sytuacja może się zmienić dzięki umowie podpisanej przez Jordanię i Izrael w 2013 roku. Na jej mocy ma zostać wybudowany rurociąg o długości 180 km, który będzie zasilał Morze Martwe wodami Morza Czerwonego.</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/dead_sea/dead_sea_04.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Z dna Morza Martwego wydobywa się bitumin (asfalt) – jego grudy pojawiają się na powierzchni wody. Podobno, w 1834 roku na brzegu znaleziono bryłę ważącą 2700 kilogramów. Pierwotnie sądzono, że asfalt odrywa się od dna wskutek trzęsień ziemi. Bardziej prawdopodobna jest jednak teoria, że asfalt wydostaje się z głębi ziemi poprzez szczeliny lub struktury geologiczne zwane diapirami. Gdy dotrze do dna morza i uwolni się od soli, wypływa na powierzchnię.</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/dead_sea/dead_sea_05.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Błoto z Morza Martwego ma unikalne właściwości lecznicze. Zawiera ono aż 26 minerałów. Absorbuje zanieczyszczenia, wygładza, odżywia i ujędrnia skórę. Gorące źródła siarkowe występujące wzdłuż wybrzeża są wykorzystywane do leczenia chorób skóry i stawów. Właściwości wody i błota w połączeniu z klimatem nad słonym jeziorem dają świetne rezultaty leczenia chorych na astmę i alergie, a także pomagają w łagodzeniu zmian łuszczycowych oraz egzem skórnych.</p>
+            
+        </main>
+        
+        <hr>
+        
+        <p id="galeria">Galeria zdjęć</p>
+        
+        <div id="divGal">
+            
+            <a href="img/dead_sea/dead_sea_06.jpg" data-lightbox="galeria">
+            
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/dead_sea/dead_sea_06.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/dead_sea/dead_sea_07.jpg" data-lightbox="galeria">
+            
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/dead_sea/dead_sea_07.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/dead_sea/dead_sea_08.jpg" data-lightbox="galeria">
+            
+                <div class="galPhoto">
+                
+                    <img class="galImg" src="img/dead_sea/dead_sea_08.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/dead_sea/dead_sea_09.jpg" data-lightbox="galeria">
+                
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/dead_sea/dead_sea_09.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            <a href="img/dead_sea/dead_sea_10.jpg" data-lightbox="galeria">
+                
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/dead_sea/dead_sea_10.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/dead_sea/dead_sea_11.jpg" data-lightbox="galeria">
+                
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/dead_sea/dead_sea_11.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>    
+        
+        </div>
+        
+        <hr>
+        
+        <footer>
+        
+            Copyright&copy; Cezary Sadowski 2019;
+        
+        </footer>
+    </body>
+
+</html>

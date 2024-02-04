@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+    
+        <title>Jezioro Kraterowe</title>
+        <meta charset="utf-8">
+        
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="lightbox.min.css" rel="stylesheet" type="text/css">
+        
+        <script src="lightbox-plus-jquery.min.js"></script>
+        
+        <script>
+            $(function(){
+                $('.scrollUp').click(function(e){
+                e.preventDefault();
+                $('html, body').animate({scrollTop:0}, 800);
+            });
+        });
+            
+            //pokaż podczas przewijania
+            $(window).scroll(function()
+            {
+                if($(this).scrollTop()>350) $('.scrollUp').fadeIn();
+                else $('.scrollUp').fadeOut()
+            }
+            );
+        </script>
+        
+    </head>
+    
+    <body>
+    
+        <a id="aHeader" href="jeziora.html">
+            
+            <header>Najciekawsze jeziora świata</header>
+            
+        </a>
+
+        <a href="#" class="scrollUp"></a>
+        
+        <hr>
+
+        
+        <main id="jezioraIn">
+            
+            
+            <p id="tytulJeziora">Jezioro Kraterowe</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/crater/crater_lake_01.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Jezioro Kraterowe jest najgłębszym jeziorem Stanów Zjednoczonych. Leży w stanie Oregon na terenie Parku Narodowego Jeziora Kraterowego. Jest to jezioro kalderowe. Powstało około 7700 lat temu w wyniku erupcji, a następnie zapadnięcia się części wierzchołka wulkanu Mount Mazama. Powstała kaldera wypełniła się wodą opadową ze śniegu i deszczu. Do jeziora nie wpada żadna rzeka, a parowanie jego wód kompensowane jest deszczem i opadami śniegu z taką szybkością, że całkowita wymiana wody w jeziorze następuje co 250 lat.</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/crater/crater_lake_02.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Powierzchnia jeziora wynosi 53km<sup>2</sup>. Jego średnia głębokość to 350 metrów, a maksymalna to 594 metry. Kryształowo czysta woda sprawia, że jezioro ma zawsze błękitną barwę i niezwykle wysoką przejrzystość sięgającą 43 metrów głębokości. Na jeziorze znaleźć możemy dwie małe wysepki. <q>Wizard Island</q>, położona jest w pobliżu zachodniego brzegu jeziora. Druga wyspa to <q>Phantom Ship</q>, naturalny filar skalny, znajduje się w pobliżu południowego brzegu.</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/crater/crater_lake_03.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Ciekawym obiektem jest <q>The Old Man of the Lake</q>, czyli  wysoki na 9 m pień drzewa, który unosi się w jeziorze od co najmniej 1896 roku. Niska temperatura wody spowolniła rozkład drewna, stąd jego długowieczność. Nie jest on w żaden sposób przytwierdzony do dna i może znaleźć się w dowolnym miejscu na jeziorze. Datowanie węglem pozwoliło ustalić, że pień ma około 450 lat.</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/crater/crater_lake_04.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Jezioro Kraterowe (Crater Lake) początkowo nosiło nazwę Blue Lake. Dla mieszkających w okolicy Indian z plemienia Klamath, Jezioro Kraterowe do dziś uchodzi za miejsce święte. Według legendy, wielki wybuch sprzed tysięcy lat był efektem walki dwóch duchów - pana nieba i pana podziemi. Wierzą także, że wspinanie się po stromych ścianach kaldery dodaje wyjątkowych mocy. Co ciekawe, Jezioro Kraterowe nie posiadało własnych gatunków ryb, zarybione zostało ono dopiero w latach 1888 -1941. Obecnie w jego wodach pływają łososie i pstrągi.</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/crater/crater_lake_05.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Obecnie Jezioro Kraterowe musi mierzyć się z szeregiem zagrożeń w postaci m.in. zanieczyszczenia atmosfery, zmian klimatycznych, czy nadużywania przez ludzi. Brak dopływów i odpływów, czyni je niezwykle wrażliwym na zanieczyszczenia. Szczególnie niebezpieczne są toksyczne cząstki zawarte w śniegu i deszczu, śmieci pozostawiane przez turystów oraz łodzie turystyczne napędzane gazem. Zmiana klimatu doprowadza do zmniejszania opadów śniegu, ocieplania wód jeziora i problemów związanych z florą i fauną. Od 1965 roku, wody Jeziora Kraterowego ogrzewają się, w przybliżeniu, o 1&deg;F co dziesięć lat. Naukowcy przewidują, że wraz ze wzrostem temperatury, ilość alg będzie się zwiększała, co poskutkuje zmniejszeniem przejrzystości wody.</p>
+            
+        </main>
+        
+        <hr>
+        
+        <p id="galeria">Galeria zdjęć</p>
+        
+        <div id="divGal">
+            
+            <a href="img/crater/crater_lake_06.jpg" data-lightbox="galeria">
+            
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/crater/crater_lake_06.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/crater/crater_lake_07.jpg" data-lightbox="galeria">
+            
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/crater/crater_lake_07.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/crater/crater_lake_08.jpg" data-lightbox="galeria">
+            
+                <div class="galPhoto">
+                
+                    <img class="galImg" src="img/crater/crater_lake_08.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/crater/crater_lake_09.jpg" data-lightbox="galeria">
+                
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/crater/crater_lake_09.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            <a href="img/crater/crater_lake_10.jpg" data-lightbox="galeria">
+                
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/crater/crater_lake_10.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/crater/crater_lake_11.jpg" data-lightbox="galeria">
+                
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/crater/crater_lake_11.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>    
+        
+        </div>
+        
+        <hr>
+        
+        <footer>
+        
+            Copyright&copy; Cezary Sadowski 2019;
+        
+        </footer>
+    </body>
+
+</html>

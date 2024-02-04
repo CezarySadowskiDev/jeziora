@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+    
+        <title>Jezioro Hillier</title>
+        <meta charset="utf-8">
+        
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="lightbox.min.css" rel="stylesheet" type="text/css">
+        
+        <script src="lightbox-plus-jquery.min.js"></script>
+    
+        <script>
+            $(function(){
+                $('.scrollUp').click(function(e){
+                e.preventDefault();
+                $('html, body').animate({scrollTop:0}, 800);
+            });
+        });
+            
+            //pokaż podczas przewijania
+            $(window).scroll(function()
+            {
+                if($(this).scrollTop()>350) $('.scrollUp').fadeIn();
+                else $('.scrollUp').fadeOut()
+            }
+            );
+        </script>
+        
+    </head>
+    
+    <body>
+    
+        <a id="aHeader" href="jeziora.html">
+            
+            <header>Najciekawsze jeziora świata</header>
+            
+        </a>
+        
+        <a href="#" class="scrollUp"></a>
+
+        <hr>
+
+        
+        <main id="jezioraIn">
+            
+            
+            <p id="tytulJeziora">Jezioro Hillier</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/hillier/hillier_01.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Jezioro Hillier jest bezodpływowym jeziorem typu solankowego znajdującym się na australijskiej wyspie Middle. Jego największa dlugość to około 650m, szerokość w najszerszym punkcie to 410m, a powierzchnia to 15 hektarów. Od oceanu oddziela je wąski pas terenu.</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/hillier/hillier_02.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Zasolenie w jeziorze wynosi 38%, czyli prawie tyle samo ile wynosi zasolenie Morza Martwego – odpowiada to stężeniu soli około 340g na 1 litr wody. W początkowych latach XX wieku z jeziora wydobywano sól, lecz po 6 latach eksploatacji zaniechano wydobycia.</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/hillier/hillier_03.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Pierwsze wzmianki dotyczące różowego jeziora pochodzą z 1802 roku. Wtedy, podczas podróży do Sydney, odwiedził je angielski podróżnik i hydrograf Matthew Flinders. Co więcej, na początku XIX wieku okolice Hillier zamieszkiwali wielorybnicy oraz myśliwi polujący na foki. </p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/hillier/hillier_04.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Mimo wielu przeprowadzonych badań, nie udało się ostatecznie ustalić przyczyny różowego koloru jeziora. Najbardziej prawdopodobne jest, że różowy kolor jest wynikiem wysokiego zasolenia połączonego z obecnością kochającego sól gatunku algi Dunaliella salina oraz halobakterii.</p>
+            
+            <div class="zdjecia">
+                
+                <img style="width: 760px;" src="img/hillier/hillier_05.jpg" alt="zdjecie">
+                
+            </div>
+            
+            <p class="opis">Bez względu na przyczynę pochodzenia koloru, woda nie stanowi żadnego zagrożenia dla ludzi. Pływanie w jeziorze nie jest jednak możliwe, ponieważ wyspa używana jest jedynie do celów badawczych. Turyści mogą ją podziwiać tylko z góry, np. podczas lotu samolotem.</p>
+            
+        </main>
+        
+        <hr>
+        
+        <p id="galeria">Galeria zdjęć</p>
+        
+        <div id="divGal">
+            
+            <a href="img/hillier/hillier_06.jpg" data-lightbox="galeria">
+            
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/hillier/hillier_06.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/hillier/hillier_07.jpg"  data-lightbox="galeria">
+            
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/hillier/hillier_07.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/hillier/hillier_08.jpg" data-lightbox="galeria">
+            
+                <div class="galPhoto">
+                
+                    <img class="galImg" src="img/hillier/hillier_08.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/hillier/hillier_09.jpg" data-lightbox="galeria">
+                
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/hillier/hillier_09.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            <a href="img/hillier/hillier_10.jpg" data-lightbox="galeria">
+                
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/hillier/hillier_10.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>
+            
+            
+            <a href="img/hillier/hillier_11.jpg" data-lightbox="galeria">
+                
+                <div class="galPhoto">
+            
+                    <img class="galImg" src="img/hillier/hillier_11.jpg" alt="zdjGal">
+                    
+                </div>
+            
+            </a>    
+        
+        </div>
+        
+        <hr>
+        
+        <footer>
+        
+            Copyright&copy; Cezary Sadowski 2019;
+        
+        </footer>
+    </body>
+
+</html>
